@@ -1,4 +1,11 @@
-# The Solidity Contract-Oriented Programming Language
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.0 <0.9.0;
+
+contract HelloWorld {
+    function helloWorld() external pure returns (string memory) {
+        return "Hello, World!";
+    }
+}# The Solidity Contract-Oriented Programming Language
 
 [![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)
 [![Gitter Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreen?style=plastic&logo=gitter)](https://gitter.im/ethereum/solidity)
